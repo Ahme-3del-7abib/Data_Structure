@@ -153,7 +153,6 @@ public class Methods {
      3 -- In order
     
      */
-    // pre order traversing (نفسي   شمال   يمين)
     public static void printPreOrder(Node root) {
 
         // print my self root 
@@ -169,8 +168,7 @@ public class Methods {
             printPreOrder(root.right);
         }
     }
-
-    // pre order traversing (شمال  نفسي  يمين)
+    
     public static void printInOrder(Node root) {
 
         // print left sub tree
@@ -186,8 +184,7 @@ public class Methods {
             printInOrder(root.right);
         }
     }
-
-    // post order traversing (شمال  يمين  نفسي)
+    
     public static void printPostOrder(Node root) {
 
         // print left sub tree
